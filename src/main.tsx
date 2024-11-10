@@ -4,8 +4,6 @@ import "./index.css";
 import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const basename = process.env.NODE_ENV === "production" ? "/pigeon-note" : "/";
-
 const router = createBrowserRouter(
   [
     {
@@ -13,7 +11,7 @@ const router = createBrowserRouter(
       element: <App />,
     },
   ],
-  { basename },
+  { basename: "/pigeon-note" },
 );
 
 createRoot(document.getElementById("root")!).render(
