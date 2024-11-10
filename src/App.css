@@ -1,7 +1,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
@@ -39,4 +40,24 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* npavl */
+
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 60vw;
+  min-width: 330px;
+  max-width: 1000px;
+  height: 50vh;
+  outline:none;
+  border-bottom: 2px solid #181818; /* Thin underline */
+  /* box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05); */
+}
+
+.attribution {
+  font-size: 0.8em;
 }
